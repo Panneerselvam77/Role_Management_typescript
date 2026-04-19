@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "role": "admin",
+      "password": "password123",
+      "permissions": [
+        "VIEW_DASHBOARD",
+        "VIEW_PRODUCT",
+        "EDIT_PRODUCT",
+        "DELETE_PRODUCT"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Brian Lee",
+      "email": "brian.lee@example.com",
+      "role": "manager",
+      "password": "password456",
+      "permissions": ["VIEW_DASHBOARD", "VIEW_PRODUCT", "EDIT_PRODUCT"]
+    },
+    {
+      "id": 3,
+      "name": "Carmen Patel",
+      "email": "carmen.patel@example.com",
+      "role": "viewer",
+      "password": "password789",
+      "permissions": ["VIEW_DASHBOARD", "VIEW_PRODUCT"]
+    },
+    {
+      "id": 4,
+      "name": "David Kim",
+      "email": "david.kim@example.com",
+      "role": "guest",
+      "password": "password012",
+      "permissions": ["VIEW_DASHBOARD"]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 999.99,
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "price": 499.99,
+      "stock": 200
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "price": 199.99,
+      "stock": 150
+    }
+  ]
+}
